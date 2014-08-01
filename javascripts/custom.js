@@ -2,9 +2,9 @@ var m = new mandrill.Mandrill('Y2wsMlwwhBmph4XyxUZsKQ');
 
 var params = {
 	"message": {
-		"from_email": "wecodepixels@gmail.com",
+		"from_email": "codedpixels.co@gmail.com",
 		"from_name": "CodedPixels.co",
-		"to": [{ "email": "wecodepixels@gmail.com" }],
+		"to": [{ "email": "codedpixels.co@gmail.com" }],
 		"subject": "Yay! CodedPixels.co Work Enquiry"
 	}
 
@@ -65,7 +65,7 @@ $(document).ready(function(){
 
   $('form#quote_form').validate({
   	submitHandler: function(form){
-  		// send info to wecodepixels@gmail.com
+  		// send info to codedpixels.co@gmail.com
   		sendTheMail();
   		
   		// show success message
